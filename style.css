@@ -6,21 +6,12 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
-.parent {
-  font-size: 20px;
-  display: flex;
-  width: 50vw;
-  justify-content: space-around;
+.gallerycard1 {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid red;
+  background: yellow;
+  
 }
-h2 {
-  margin: 1rem;
-}
-.px-size {
-  font-size: 20px;
-}
-.rem-size {
-  font-size: 2rem;
-}
-.em-size {
-  font-size: 1em;
 }
