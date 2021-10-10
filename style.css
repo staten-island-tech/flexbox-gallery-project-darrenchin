@@ -24,7 +24,42 @@ body,
 .fire1,
 .fire2,
 .fire3 {
-  border: 3px solid #d12027;
+  background-color: #d12027;
+  height: 10em;
+  border-radius: 20px;
   width: 28%;
   margin: 40px auto;
+  text-align: center;
+}
+.hydro {
+  font-size: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.water1,
+.water2,
+.water3 {
+  background-color: rgb(40, 142, 165);
+  height: 10em;
+  border-radius: 20px;
+  width: 28%;
+  margin: 40px auto;
+  text-align: center;
+}
+.electro {
+  font-size: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.purple1,
+.purple2,
+.purple3 {
+  background-color: rgb(40, 42, 165);
+  height: 10em;
+  border-radius: 20px;
+  width: 28%;
+  margin: 40px auto;
+  text-align: center;
 }
