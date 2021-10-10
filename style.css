@@ -15,3 +15,16 @@ body,
   border: 7px solid rgb(255, 228, 196);
   font-size: 4rem;
 }
+.pyro {
+  font-size: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fire1,
+.fire2,
+.fire3 {
+  border: 3px solid #d12027;
+  width: 28%;
+  margin: 40px auto;
+}
