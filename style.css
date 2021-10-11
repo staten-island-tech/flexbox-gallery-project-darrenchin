@@ -15,54 +15,23 @@ body,
   border: 7px solid rgb(255, 228, 196);
   font-size: 4rem;
 }
-.pyro {
-  font-size: 35px;
+.parent1 {
+  font-size: 40px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
-.fire1,
-.fire2,
-.fire3 {
-  border: 3px solid #d12027;
+.child-1,
+.child-2,
+.child-3 {
   width: 28%;
+  height: 50%;
+  background-color: rgb(0, 128, 90);
+  text-align: center;
   margin-bottom: 3em;
-  margin: 40px auto;
-<<<<<<< HEAD
-  text-align: center;
 }
-
-.hydro {
-  font-size: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.water1,
-.water2,
-.water3 {
-  background-color: rgb(40, 142, 165);
-  height: 10em;
-  border-radius: 20px;
-  width: 28%;
-  margin: 40px auto;
-  text-align: center;
-}
-.electro {
-  font-size: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.purple1,
-.purple2,
-.purple3 {
-  background-color: rgb(40, 42, 165);
-  height: 10em;
-  border-radius: 20px;
-  width: 28%;
-  margin: 40px auto;
-  text-align: center;
-=======
->>>>>>> parent of 77ee7dd (v3)
+#img-2 {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
 }
