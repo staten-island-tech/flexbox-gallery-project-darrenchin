@@ -28,9 +28,11 @@ body,
   height: 10em;
   border-radius: 20px;
   width: 28%;
+  margin-bottom: 3em;
   margin: 40px auto;
   text-align: center;
 }
+
 .hydro {
   font-size: 35px;
   display: flex;
