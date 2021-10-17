@@ -35,12 +35,16 @@ body {
   margin-bottom: 3em;
   border-radius: 20px;
   padding-top: 2em;
-  box-shadow: 4px 4px 4px;
+  box-shadow: 4px 4px 8px;
 }
 .images {
-  width: 40rem;
-  height: 25rem;
+  width: 60%;
+  height: 20vh;
   margin-top: 1.75em;
   margin-bottom: 1.75em;
   border: 4px solid rgb(255, 253, 208);
+}
+.gallery:hover .images:not(:hover) {
+  transform: scale(0.5);
+  opacity: 0.3;
 }
