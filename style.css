@@ -9,6 +9,7 @@ body,
 body {
   font-family: "Vollkorn", serif;
   background-color: rgb(255, 253, 208);
+  animation: test 1s;
 }
 .header {
   color: rgb(173, 216, 230);
@@ -36,6 +37,7 @@ body {
   border-radius: 20px;
   padding-top: 2em;
   box-shadow: 4px 4px 8px;
+  transition: 0.5s;
 }
 .images {
   width: 60%;
@@ -47,4 +49,33 @@ body {
 .images:hover {
   transform: scale(1.1);
   outline: 1rem solid rgb(255, 253, 208);
+}
+.child-1:hover {
+  transform: scale(1.1);
+}
+.child-2:hover {
+  transform: translate(0.5rem, -1rem);
+}
+.child-3:hover {
+  transform: rotate(1turn);
+}
+.header:hover {
+  transform: scale(1.1);
+}
+@keyframes test {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
 }
