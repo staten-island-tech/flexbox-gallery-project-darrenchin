@@ -79,3 +79,20 @@ body {
     opacity: 1;
   }
 }
+@media (max-width: 1280px) {
+  body {
+    background-color: rgb(250, 218, 221);
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: rgb(254, 216, 177);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(204, 204, 255);
+  }
+}
